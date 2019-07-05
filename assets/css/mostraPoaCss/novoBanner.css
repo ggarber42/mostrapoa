@@ -1,0 +1,21 @@
+#banner {
+  background-image: url(images/3.png);
+  background-size: contain;
+  width: 100%;
+  background-repeat: no-repeat; }
+  #banner * {
+    border-radius: unset !important; }
+  #banner .content {
+    position: relative;
+    padding: 0;
+    margin: 0; }
+    #banner .content header {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; }
+    #banner .content span.image {
+      width: unset;
+      margin: 0; }
+      #banner .content span.image::before {
+        content: unset; }
