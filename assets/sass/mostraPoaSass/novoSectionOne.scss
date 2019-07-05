@@ -1,0 +1,30 @@
+section#one{
+
+    .content{
+
+        .container{
+
+            width: auto;
+
+            .header{
+                text-align: center;
+            }
+
+            .row{
+                
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+
+                .col-4{
+                    padding: 1em;
+                    width: 100%;
+                    text-align: center;
+
+                    p{
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}

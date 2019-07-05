@@ -1,12 +1,13 @@
 header#header {
   position: relative !important;
-  height: 10vh; }
+  height: 7.5vh; }
 
 #banner {
   background-image: url("../../../images/3.png");
   background-size: contain;
   width: 100%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center; }
   #banner * {
     border-radius: unset !important; }
   #banner .content {
@@ -23,3 +24,22 @@ header#header {
       margin: 0; }
       #banner .content span.image::before {
         content: unset; }
+  #banner::after {
+    background-image: -webkit-linear-gradient(top, rgba(0, 255, 122, 0.1), rgba(23, 24, 32, 0.9)), url(images/overlay.png);
+    background-image: -moz-linear-gradient(top, rgba(0, 255, 122, 0.1), rgba(23, 24, 32, 0.9)), url("images/overlay.png");
+    background-image: -ms-linear-gradient(top, rgba(0, 255, 122, 0.1), rgba(23, 24, 32, 0.9)), url("images/overlay.png");
+    background-image: linear-gradient(top, rgba(0, 255, 122, 0.1), rgba(23, 24, 32, 0.9)), url("images/overlay.png"); }
+
+section#one .content .container {
+  width: auto; }
+  section#one .content .container .header {
+    text-align: center; }
+  section#one .content .container .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+    section#one .content .container .row .col-4 {
+      padding: 1em;
+      width: 100%;
+      text-align: center; }
+      section#one .content .container .row .col-4 p {
+        margin: 0; }
