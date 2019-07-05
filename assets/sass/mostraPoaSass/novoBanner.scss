@@ -1,0 +1,36 @@
+#banner{
+    
+    background-image: url("../../../images/3.png");
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+
+    *{
+        border-radius: unset !important;
+    }
+    .content{
+        
+        position: relative;
+        padding: 0;
+        margin: 0;
+
+        header{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;;
+        }
+
+        span.image{
+            
+            width: unset;
+            margin: 0;
+            &::before{
+                content: unset;
+            }
+            img{
+                
+            }
+        }    
+    }
+}
