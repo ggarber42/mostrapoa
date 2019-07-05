@@ -1,14 +1,14 @@
 # mostrapoa
 
-#Instalação
+# Instalação
 
 Para usar isso no Windows, melhor baixar o GIT BASH e executar os comandos por ali
 
-#Node
+# Node
 
 npm install
 
-#Gulp
+# Gulp
 
 https://gulpjs.com/docs/en/getting-started/quick-start
 
@@ -16,7 +16,7 @@ npm install --global gulp-cli
 
 npm install --save-dev gulp
 
-#Gulp Sass
+# Gulp Sass
 
 npm install node-sass gulp-sass --save-dev
 
