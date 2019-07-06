@@ -1,0 +1,32 @@
+section{
+
+    &#four{
+        position: relative;
+
+
+        .icon.major{
+
+            height: unset !important;    
+        }
+    }
+    
+    &#five{
+
+        position: relative;
+
+
+            .organizadores{
+
+                display: flex;
+                justify-content: center;
+
+                *{
+                    text-align: center;
+                }
+
+                img{
+                    border-radius: 50%;
+                }
+            }
+    }
+}

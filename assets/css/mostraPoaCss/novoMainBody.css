@@ -1,0 +1,8 @@
+.button.primary {
+  background: #39c088; }
+  .button.primary:hover {
+    background: #61bd97;
+    color: #fff; }
+
+.content h2 {
+  text-align: center; }

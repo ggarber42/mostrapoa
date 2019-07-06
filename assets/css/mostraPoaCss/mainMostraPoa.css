@@ -1,6 +1,13 @@
 header#header {
   position: relative !important;
   height: 7.5vh; }
+  header#header #logo a:hover {
+    color: #61bd97 !important; }
+  header#header ul li a:hover {
+    color: #61bd97 !important; }
+  header#header ul li a.button.primary:hover {
+    color: #fff !important;
+    background: #61bd97 !important; }
 
 #banner {
   background-image: url("../../../images/3.png");
@@ -40,6 +47,40 @@ section#one .content .container {
     section#one .content .container .row .col-4 {
       padding: 1em;
       width: 100%;
-      text-align: center; }
+      text-align: center;
+      vertical-align: middle; }
       section#one .content .container .row .col-4 p {
         margin: 0; }
+
+section#two .content, section#three .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  section#two .content ul li a:hover, section#three .content ul li a:hover {
+    color: #61bd97 !important;
+    box-shadow: inset 0 0 0 1px #61bd97; }
+
+section#four {
+  position: relative; }
+  section#four .icon.major {
+    height: unset !important; }
+
+section#five {
+  position: relative; }
+  section#five .organizadores {
+    display: flex;
+    justify-content: center; }
+    section#five .organizadores * {
+      text-align: center; }
+    section#five .organizadores img {
+      border-radius: 50%; }
+
+.button.primary {
+  background: #39c088; }
+  .button.primary:hover {
+    background: #61bd97;
+    color: #fff; }
+
+.content h2 {
+  text-align: center; }

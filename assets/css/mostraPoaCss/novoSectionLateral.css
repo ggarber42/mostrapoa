@@ -1,0 +1,8 @@
+section#two .content, section#three .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  section#two .content ul li a:hover, section#three .content ul li a:hover {
+    color: #61bd97 !important;
+    box-shadow: inset 0 0 0 1px #61bd97; }

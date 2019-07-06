@@ -1,6 +1,46 @@
+@import 'novaCor.scss';
+
 header {
     &#header{
         position: relative !important;
         height: 7.5vh;
+
+        #logo{
+
+            a{
+
+                &:hover{
+
+                    color: $primary-green-hover !important;
+                }
+            }
+        }
+
+        ul {
+
+            li{
+
+                a{
+
+                    &:hover{
+
+                        color: $primary-green-hover !important;
+                    }
+
+                    &.button{
+
+                        &.primary{
+
+                            &:hover{
+                                
+                                color : $text-color !important;
+                                background : $primary-green-hover !important;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
     }   
 }
