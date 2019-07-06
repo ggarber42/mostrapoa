@@ -1,0 +1,23 @@
+@import 'novaCor.scss';
+
+.button {
+
+    &.primary{
+
+        background: $primary-green;
+
+        &:hover{
+
+            background: $primary-green-hover;
+            color: $text-color;
+        }
+    }
+}
+
+.content{
+
+    h2{
+        
+        text-align: center;
+    }
+}

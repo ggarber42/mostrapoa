@@ -1,0 +1,14 @@
+section#four {
+  position: relative; }
+  section#four .icon.major {
+    height: unset !important; }
+
+section#five {
+  position: relative; }
+  section#five .organizadores {
+    display: flex;
+    justify-content: center; }
+    section#five .organizadores * {
+      text-align: center; }
+    section#five .organizadores img {
+      border-radius: 50%; }

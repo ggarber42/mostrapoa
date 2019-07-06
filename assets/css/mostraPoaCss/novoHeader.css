@@ -1,3 +1,10 @@
 header#header {
   position: relative !important;
   height: 7.5vh; }
+  header#header #logo a:hover {
+    color: #61bd97 !important; }
+  header#header ul li a:hover {
+    color: #61bd97 !important; }
+  header#header ul li a.button.primary:hover {
+    color: #fff !important;
+    background: #61bd97 !important; }
