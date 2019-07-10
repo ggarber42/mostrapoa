@@ -84,3 +84,11 @@ section#five {
 
 .content h2 {
   text-align: center; }
+
+section#five .organizadores img {
+  width: 120px;
+  height: 120px;
+  margin: auto; }
+
+section#five .organizadores {
+  margin-bottom: 50px; }
