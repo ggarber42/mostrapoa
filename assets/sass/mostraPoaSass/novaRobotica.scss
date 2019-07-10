@@ -1,0 +1,21 @@
+//  @import 'novoHeader.scss';
+@import 'novaCor.scss';
+@import 'paginaAdicionais.scss';
+
+
+ 
+
+ #banner-robotics{
+     background-image: url('../../../images/robotics.jpeg');
+     height: 70vh;
+     background-size: cover;
+     background-repeat: no-repeat; 
+     background-position-y: 30%;
+ }
+
+
+ @media screen and (max-width: 700px) {
+    #banner-robotics    {
+        background-size: contain;
+    }
+  }

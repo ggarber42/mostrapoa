@@ -1,0 +1,88 @@
+@import 'novaCor.scss';
+
+ #page-wrapper{
+     padding-top: 0 !important;
+ }
+ 
+    a {
+
+        &.button.primary{
+            background: #39c088 !important;
+
+            &:hover{
+
+                background: $primary-green-hover !important;
+                color : $text-color !important;
+            }
+        }
+
+    }
+
+ header {
+    &#header{
+        // position: relative !important;
+        // height: 7.5vh;
+
+        #logo{
+
+            a{
+
+                &.button.primary{
+                    background: #39c088 !important;
+                }
+                &:hover{
+
+                    color: $primary-green-hover !important;
+                }
+            }
+        }
+
+        ul {
+
+            li{
+
+                a{
+
+                    // &.button.primary{
+                    //     background: #39c088 !important;
+                    // }
+                    &:hover{
+
+                        color: $primary-green-hover !important;
+                    }
+
+                    &.button{
+
+                        &.primary{
+
+                            &:hover{
+                                
+                                color : $text-color !important;
+                                background : $primary-green-hover !important;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }   
+}
+
+#main{
+
+    .container{
+
+        .major{
+
+            &::after{
+
+                background: #39c088 !important;
+            }
+        }
+        .texto{
+            text-align: center;
+            height: 70vh;
+        }
+    }
+ }  
