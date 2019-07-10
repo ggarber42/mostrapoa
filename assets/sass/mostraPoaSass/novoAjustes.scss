@@ -29,3 +29,13 @@ header{
         }
     }
 } 
+
+a{
+    &.button{
+
+        &.primary{
+        
+            padding: 0 1%;
+        }
+    }
+}

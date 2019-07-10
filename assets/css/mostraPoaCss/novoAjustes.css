@@ -9,3 +9,6 @@ header.major::after {
 
 #titleBar .toggle::before {
   background: #39c088 !important; }
+
+a.button.primary {
+  padding: 0 1%; }
