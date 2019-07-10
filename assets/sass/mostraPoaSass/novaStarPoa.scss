@@ -1,0 +1,26 @@
+@import 'novaCor.scss';
+@import 'paginaAdicionais.scss';
+
+#banner-startpoa{
+    background-image: url('../../../images/bg-desk.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.box .tips {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 100%;
+}
+
+.box .tips i {
+    font-size: 40px;
+    color: #39c088;
+}
+
+.box .tips div {
+    padding-left: 20px;
+}

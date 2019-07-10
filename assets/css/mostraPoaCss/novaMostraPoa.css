@@ -27,18 +27,28 @@ header#header ul li a.button.primary:hover {
   text-align: center;
   height: 70vh; }
 
-.button.primary {
-  padding: 0 2%; }
-
-#banner-robotics {
-  background-image: url("../../../images/robotics.jpeg");
+#banner-mostrapoa {
+  background-image: url("../../../images/3.png");
   height: 70vh;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position-y: 30%; }
+  background-position: center; }
 
-@media screen and (max-width: 700px) {
-  #banner-robotics {
-    background-size: contain; }
-  #main .container .texto {
-    height: initial; } }
+#main .evento {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #f1f1f1;
+  border-radius: 4px; }
+
+#main .evento > div {
+  padding: 5px; }
+
+#main .evento > div span {
+  display: block; }
+
+#main .text-center {
+  text-align: center;
+  margin-bottom: 15px; }

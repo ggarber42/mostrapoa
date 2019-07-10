@@ -27,18 +27,22 @@ header#header ul li a.button.primary:hover {
   text-align: center;
   height: 70vh; }
 
-.button.primary {
-  padding: 0 2%; }
-
-#banner-robotics {
-  background-image: url("../../../images/robotics.jpeg");
-  height: 70vh;
+#banner-startpoa {
+  background-image: url("../../../images/bg-desk.jpg");
+  height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: 30%; }
+  background-position: center; }
 
-@media screen and (max-width: 700px) {
-  #banner-robotics {
-    background-size: contain; }
-  #main .container .texto {
-    height: initial; } }
+.box .tips {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 100%; }
+
+.box .tips i {
+  font-size: 40px;
+  color: #39c088; }
+
+.box .tips div {
+  padding-left: 20px; }
