@@ -39,4 +39,6 @@ header#header ul li a.button.primary:hover {
 
 @media screen and (max-width: 700px) {
   #banner-robotics {
-    background-size: contain; } }
+    background-size: contain; }
+  #main .container .texto {
+    height: initial; } }

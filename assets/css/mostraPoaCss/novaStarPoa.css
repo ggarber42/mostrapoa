@@ -27,28 +27,22 @@ header#header ul li a.button.primary:hover {
   text-align: center;
   height: 70vh; }
 
-#banner-mostrapoa {
-  background-image: url("../../../images/3.png");
-  height: 70vh;
-  background-size: contain;
+#banner-startpoa {
+  background-image: url("../../../images/bg-desk.jpg");
+  height: 50vh;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
 
-#main .evento {
+.box .tips {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  text-align: center;
-  padding: 5px;
-  border: 1px solid #f1f1f1;
-  border-radius: 4px; }
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 100%; }
 
-#main .evento > div {
-  padding: 5px; }
+.box .tips i {
+  font-size: 40px;
+  color: #39c088; }
 
-#main .evento > div span {
-  display: block; }
-
-#main .text-center {
-  text-align: center;
-  margin-bottom: 15px; }
+.box .tips div {
+  padding-left: 20px; }
