@@ -1,0 +1,11 @@
+.owl-carousel .owl-item figure {
+  width: 100%    !important; }
+  .owl-carousel .owl-item figure img {
+    display: unset !important;
+    width: auto !important; }
+
+header.major::after {
+  background: #39c088 !important; }
+
+#titleBar .toggle::before {
+  background: #39c088 !important; }

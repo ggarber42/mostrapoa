@@ -27,6 +27,9 @@ header#header ul li a.button.primary:hover {
   text-align: center;
   height: 70vh; }
 
+.button.primary {
+  padding: 0 2%; }
+
 #banner-robotics {
   background-image: url("../../../images/robotics.jpeg");
   height: 70vh;
