@@ -29,3 +29,18 @@ section#one{
         }
     }
 }
+
+@media only screen and (max-width: 450px) {
+    .content{
+
+        .container{
+
+            .row{
+
+                display: flex !important;
+                padding: 0 2vw;
+            }         
+        }
+    }  
+
+  }

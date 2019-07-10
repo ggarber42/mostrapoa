@@ -52,6 +52,11 @@ section#one .content .container {
       section#one .content .container .row .col-4 p {
         margin: 0; }
 
+@media only screen and (max-width: 450px) {
+  .content .container .row {
+    display: flex !important;
+    padding: 0 2vw; } }
+
 section#two .content, section#three .content {
   display: flex;
   flex-direction: column;
@@ -84,3 +89,15 @@ section#five {
 
 .content h2 {
   text-align: center; }
+
+.owl-carousel .owl-item figure {
+  width: 100%    !important; }
+  .owl-carousel .owl-item figure img {
+    display: unset !important;
+    width: auto !important; }
+
+header.major::after {
+  background: #39c088 !important; }
+
+#titleBar .toggle::before {
+  background: #39c088 !important; }

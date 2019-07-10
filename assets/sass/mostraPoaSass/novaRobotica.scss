@@ -3,7 +3,13 @@
 @import 'paginaAdicionais.scss';
 
 
- 
+.button{
+
+    &.primary{
+
+        padding: 0 2%;
+    }
+}
 
  #banner-robotics{
      background-image: url('../../../images/robotics.jpeg');

@@ -52,7 +52,8 @@ header#header ul li a.button.primary:hover {
   .formulario #nome, .formulario #email, .formulario #assunto {
     width: 50%; }
   .formulario input[type="submit"] {
-    align-self: center; }
+    align-self: center;
+    padding: 0 2%; }
 
 input[type="text"]:focus, textarea:focus {
   border-color: #61bd97 !important; }
@@ -60,3 +61,11 @@ input[type="text"]:focus, textarea:focus {
 input[type="submit"]:hover {
   box-shadow: inset 0 0 0 1px #61bd97 !important;
   color: #61bd97 !important; }
+
+@media screen and (max-width: 450px) {
+  #main {
+    padding-bottom: 20em !important; } }
+
+@media screen and (max-width: 380px) {
+  #main {
+    padding-bottom: 32.5em !important; } }

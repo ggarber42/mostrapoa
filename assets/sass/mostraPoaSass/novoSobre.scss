@@ -44,6 +44,7 @@
 
     input[type="submit"]{
         align-self: center;
+        padding: 0 2%;
     }
   }
 
@@ -56,3 +57,14 @@
     color: #61bd97 !important;
   }
   
+  @media screen and (max-width: 450px) {
+    #main  {
+        padding-bottom: 20em !important;
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    #main  {
+        padding-bottom: 32.5em !important;
+    }
+  }
